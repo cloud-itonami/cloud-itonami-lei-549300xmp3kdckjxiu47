@@ -2,4 +2,5 @@
  :company/lei "549300XMP3KDCKJXIU47"
  :company/jurisdiction "US-DE"
  :company/website "https://www.marshmclennan.com"
- :company/ticker "MMC (NYSE)"}
+ :company/ticker "MMC (NYSE)"
+ :itonami.blueprint/maturity :implemented}
