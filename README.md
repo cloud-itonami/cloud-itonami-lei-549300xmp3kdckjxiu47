@@ -37,8 +37,8 @@ out of a public registry response whose URL and retrieval time sit next to the
 value:
 
 ```
-nbb scripts/verify-facts.cljk           # check the recorded facts against the live sources
-nbb scripts/verify-facts.cljk --write   # re-fetch and rewrite facts.edn
+kbb --backend sci scripts/verify-facts.cljk           # check the recorded facts against the live sources
+kbb --backend sci scripts/verify-facts.cljk --write   # re-fetch and rewrite facts.edn
 ```
 
 Seventeen GLEIF/ISO URLs were fetched and 103 facts recorded — the LEI record
